@@ -1,0 +1,58 @@
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header ul li a.login-button {
+    background-color: blue;
+    color: #ffffff;
+    padding: 3px 11px;
+    border-radius: 0px;
+    margin: -3px;
+}
