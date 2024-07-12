@@ -4,6 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -57,7 +59,6 @@ header ul li a.login-button {
     margin: -3px;
 }
 
-
 .hero {
     display: flex;
     padding: 96px 20px;
@@ -110,4 +111,107 @@ header ul li a.login-button {
     height: auto;
     position: relative;
     top: 150px;
+}
+
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.billing-toggle {
+    display: flex;
+    justify-content: flex-start;
+    gap: 21px;
+    position: relative;
+    left: 124px;
+    margin-bottom: 29px;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.bar {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: -21px -21px 20px;
+    text-align: center;
+    position: relative;
+    top: -22px;
+    background-color: #f9f9f9;
+}
+
+.plan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.plan li {
+    margin-bottom: 10px;
+}
+
+.plan i {
+    margin-right: 10px;
+}
+
+.plan-btn {
+    display: block;
+    text-align: center;
+    background-color: #007ee5;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.highlights {
+    margin-top: 20px;
+}
+
+.highlights h5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    color: blue;
 }
