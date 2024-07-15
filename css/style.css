@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans';
-    margin: 0;
+    margin: 0 -15px;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -272,7 +272,7 @@ header ul li a.login-button {
     text-decoration: none;
 }
 
-/* Operations Section Styling */
+/* Features Section */
 .operations {
     padding: 50px 200px;
 
@@ -308,4 +308,159 @@ header ul li a.login-button {
 .operation p {
     font-size: 14px;
     color: #666;
+}
+
+/* Clients Section Styling */
+.clients {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.clients h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.clients .link {
+    color: #007ee5;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.client-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quote {
+    flex: 1;
+    padding: 40px;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.quote-logo {
+    margin-right: 20px;
+    width: 60px;
+    height: auto;
+}
+
+.quote p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+/* CTA Section Styling */
+.cta-section {
+    background-color: #e7edf3;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3a3a3a;
+}
+
+.cta-btn {
+    background-color: #007ee5;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* FAQ Section Styling */
+.faq {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 10px;
+    left: -392px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 14px;
+}
+
+.faq-item hr {
+    margin: 0px 130px;
+}
+
+/* Footer Styling */
+footer {
+    padding: 50px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-links div {
+    text-align: left;
+}
+
+.footer-links h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
